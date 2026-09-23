@@ -101,3 +101,12 @@ When a structural plan is generated, AId will return an embed detailing the firs
 
 **Contributing to AId**
 Contributions to expand AId's LLM schemas, optimize rate-limiting algorithms, or support additional database backends for logging are welcome. Please ensure all pull requests pass `flake8` linting and include `pytest` coverage for any new rate-limiting logic. Fork the repository, create a feature branch (`git checkout -b feature/new-schema`), and submit a Pull Request detailing the changes to the JSON generation pipeline. All code is licensed under the GPLv3 License.
+
+---
+
+## 5. Legal & Policies
+
+For bot hosting, verification, and Discord Developer Portal compliance:
+- [Terms of Service](TERMS_OF_SERVICE.md)
+- [Privacy Policy](PRIVACY_POLICY.md)
+- [Security Policy](SECURITY.md)

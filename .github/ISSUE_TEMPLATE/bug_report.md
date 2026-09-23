@@ -1,38 +1,36 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: Bug Report
+about: Report a bug, crash, or unexpected behavior in AId
+title: '[BUG]: '
+labels: ['bug']
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Describe the Bug**
+A clear and concise description of what happened.
+
+**Command or Action Triggered**
+- Command: (e.g. `/aid build "..."` or `/aid admin "..."`)
+- Action/Step where failure occurred: (e.g. LLM generation, button click, role hierarchy check)
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. Run command '...'
+2. Click button '...'
+3. See error in Discord / console
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Expected Behavior**
+What you expected to happen instead.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Error Logs / Traceback**
+```text
+Paste terminal or bot logs here (make sure no tokens/keys are included!)
+```
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Environment Info**
+- OS: [e.g. Ubuntu 22.04, Windows 11]
+- Python Version: [e.g. 3.11.4]
+- discord.py Version: [e.g. 2.3.2]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**Additional Context**
+Any other information, screenshots, or server setup specifics.

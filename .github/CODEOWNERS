@@ -1,0 +1,8 @@
+# Global code owners
+* @yigit-guven
+
+# GitHub Actions workflows & CI/CD
+/.github/workflows/ @yigit-guven
+
+# Security policies & sensitive guardrails
+/SECURITY.md @yigit-guven

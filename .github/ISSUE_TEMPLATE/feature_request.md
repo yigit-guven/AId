@@ -1,20 +1,24 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: Feature Request
+about: Suggest an idea, new command, or capability for AId
+title: '[FEAT]: '
+labels: ['enhancement']
 assignees: ''
-
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Summary of the Feature**
+A clear explanation of the feature or capability you'd like to see.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Problem It Solves**
+Is this related to a current limitation or difficulty when managing Discord servers?
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Proposed Flow / UX**
+How would users interact with it?
+- Example command prompt: (e.g. `/aid build "..."`)
+- Expected outcome or Discord UI interaction:
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Alternative Solutions**
+Any alternatives or workarounds you have considered.
+
+**Additional Context**
+Any mockups, diagrams, or references from other Discord bots or LLM tools.

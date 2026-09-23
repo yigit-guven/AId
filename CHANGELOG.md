@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.1] - 2026-09-23
+
+### Added
+- Automated CodeQL static analysis and security scanning workflow.
+- Automated version synchronization for `CITATION.md` and `SECURITY.md` in the release pipeline.
+- Discord Developer Portal compliance policies: `TERMS_OF_SERVICE.md` and `PRIVACY_POLICY.md`.
+- Contributor guidelines in `CONTRIBUTING.md` and Contributor Covenant in `CODE_OF_CONDUCT.md`.
+- Structured pull request template `.github/pull_request_template.md`.
+- Environment template `.env.example` and standard `.gitignore`.
+- Repository `CODEOWNERS` and academic citation reference in `CITATION.md`.
+- Expanded GitHub issue templates for prompt schemas, performance reports, and community support links.
+
 ## [0.1.0] - 2026-09-23
 
 ### Added
