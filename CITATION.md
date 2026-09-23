@@ -10,11 +10,11 @@ If you use **AId** in academic work, research, or technical publications, please
   title = {AId: AI-Powered Discord Server Management & Architecture},
   year = {2026},
   url = {https://github.com/yigit-guven/AId},
-  version = {0.1.1},
+  version = {0.1.2},
   license = {GPL-3.0}
 }
 ```
 
 ## APA Format
 
-> Guven, Y. (2026). *AId: AI-Powered Discord Server Management & Architecture* (Version 0.1.1) [Computer software]. https://github.com/yigit-guven/AId
+> Guven, Y. (2026). *AId: AI-Powered Discord Server Management & Architecture* (Version 0.1.2) [Computer software]. https://github.com/yigit-guven/AId
