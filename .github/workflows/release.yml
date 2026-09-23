@@ -45,9 +45,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TAG="${{ steps.meta.outputs.tag_name }}"
           
-          # Commit auto-synced documents (CITATION.md, SECURITY.md) if changed
-          if ! git diff-index --quiet HEAD -- CITATION.md SECURITY.md; then
-            git add CITATION.md SECURITY.md
+          git add CITATION.md SECURITY.md
+          if ! git diff-index --quiet --cached HEAD; then
             git commit -m "docs: auto-sync version in documentation [skip ci]"
             git push origin main
           fi
