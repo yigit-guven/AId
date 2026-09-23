@@ -2,20 +2,30 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Only the latest major/minor release of **AId** receives active security updates and patches.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0.x   | :white_check_mark: |
+| < 1.0.0 | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability in AId (e.g., privilege escalation, bypass of HITL checks, token exposure, or prompt injection leading to unauthorized Discord API execution), please report it responsibly.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+### How to Report
+- **Preferred:** Use [GitHub Private Vulnerability Reporting](https://github.com/yigit-guven/AId/security/advisories/new) directly on the repository.
+- Alternatively, email the maintainer at `contact@yigitguven.net` (or open a confidential inquiry).
+
+**Do NOT report security vulnerabilities via public GitHub issues or discussions.**
+
+### What to Include
+To help triage and resolve the issue quickly, include:
+- A description of the vulnerability and its potential impact.
+- Step-by-step reproduction steps or a minimal proof of concept (PoC).
+- Affected versions, OS, Python version, and dependency environment.
+
+### Response Timeline
+- **Initial Response:** Within 48 hours acknowledging receipt of the report.
+- **Status Updates:** Regular updates during investigation and fix development.
+- **Disclosure Policy:** We request that you give us reasonable time to release a patch before disclosing the issue publicly.

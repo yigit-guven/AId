@@ -1,5 +1,9 @@
 # AId - AI-Powered Discord Server Management & Architecture
 
+[![Release](https://img.shields.io/github/v/release/yigit-guven/AId?include_prereleases&style=flat-square&color=blue)](https://github.com/yigit-guven/AId/releases)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](LICENSE)
+[![Python: 3.10+](https://img.shields.io/badge/python-3.10+-brightgreen.svg?style=flat-square)](https://www.python.org/)
+
 **AId** is an open-source, generative AI assistant for Discord. From scaffolding fully permissioned channels and categories to executing granular administrative tasks via natural language, AId streamlines complex server operations safely. It replaces manual configuration dashboards with an intelligent, prompt-driven engine protected by human-in-the-loop confirmation systems.
 
 ---
