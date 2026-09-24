@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.3] - 2026-09-24
+
+### Security
+- Pinned `softprops/action-gh-release` in the release workflow to a full commit SHA (`3bb1273` / v2.6.2) to remediate CodeQL unpinned-tag security alert.
+
 ## [0.1.2] - 2026-09-23
 
 ### Changed
